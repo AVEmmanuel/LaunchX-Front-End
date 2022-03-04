@@ -1,0 +1,66 @@
+
+.banner{
+    width: 100%;
+    display: block;
+}
+
+.banner > .banner-img{
+    display: block;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.nav{
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li{
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 20px;
+}
+.nav > li > a{
+    text-decoration: none;
+}
+.logo{
+    float: left;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+#logo{
+    width: 80px;
+}
+
+.info{
+    font-size: large;
+}
+
+.location, .Pedido , .info , .Pedidos{
+    display: inline-block;
+    padding-left: 25px;
+}
+#serach{
+    display: inline-block;
+    float: left;
+}
+#mapa{
+    display: inline-block;
+    float: right;
+    padding-left: 25px;
+}
+#pedidos_table,th,td{
+    border:1px solid black;
+    width: 100%;
+}
+.info{
+    text-align: center;
+}

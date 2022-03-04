@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/img/icon.png">
+    <link rel="stylesheet" href="./assets/css/styles.css" media="screen">
+    <title>Little Cake Shark</title>
+</head>
+<body>
+
+    <ul class="nav">
+        <div class="logo">
+            <a href="#"><img src="./assets/img/logo.png" alt="" id="logo"></a>
+        </div>
+
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#pedido">Hacer Pedido</a></li>
+        <li><a href="#pedidos">Pedidos</a></li>
+    </ul>
+
+    <div class="banner">
+        <img src="./assets/img/img1.jpg" alt="" class="banner-img">
+    </div>
+
+    <section class="info">
+        <h1><b>Pasteles artesanales de la orilla del mar</b></h1>
+        <p>Pastelandia crea pasteles extremadamente impresionantes que saben tan bien como lucen. <br>
+            Elija entre una amplia variedad de diseños de pasteles de cumpleaños, desde pasteles de hoja hasta pasteles redondos, pasteles escalonados y pasteles esculpidos. <br>
+            Dispuestos a cocinar el mas delicioso pastel, sin importar el día, Pastelandia se enorgullece de hacer "arte comestible". <br>
+            No hay nada que Pastelandia no pueda hacer</p>
+            <br>
+            <h2>Sabores y topings</h2>
+            <ul>
+                <p><b><u>Sabores</u></b></p>
+                <li>Chocolate..........$120</li>
+                <li>Tres leches........$150</li>
+                <li>Cafe...................$100</li>
+                <li>Naranja..............$130</li>
+
+                <p><b><u>Topings</u></b></p>
+                <li>Red velvet...............$50</li>
+                <li>Happy Birthday........$30</li>
+                <li>Jalea........................$70</li>
+                <li>Caricatura................$60</li>
+            </ul>
+    </section>
+<hr>
+    <section class="Pedido" id="pedido">
+        
+        <h2>Haz tu pedido ahora !</h2>
+        <p>Los campos obligatorios se marcan con un <abbr title = "required">*</abbr>.</p>
+        <form action="">
+            <div>
+                <label for="username">Nombre: <abbr title="required" aria-label="required">*</abbr></label>
+                <input id="username" type="text" name="username">
+              </div>
+              <div>
+                <label for="apellido">Apellido: <abbr title="required" aria-label="required">*</abbr></label>
+                <input id="apellido" type="text" name="apellido">
+              </div>
+              <div>
+                <label for="telefono">Telefono: <abbr title="required" aria-label="required">*</abbr></label>
+                <input id="telefono" type="tel" name="telefono">
+              </div>
+              <div>
+                <label for="username">Nombre: <abbr title="required" aria-label="required">*</abbr></label>
+                <input id="username" type="text" name="username">
+              </div>
+              <div>
+                <label for="sabor">Sabor del pastel: <abbr title="required" aria-label="required">*</abbr></label>
+                <input id="sabor" type="text" name="sabor">
+              </div>
+              <div>
+                <label for="topings">Toping: <abbr title="required" aria-label="required">*</abbr></label>
+                <input id="topings" type="text" name="topings">
+              </div>
+        </form>
+    </section>
+<hr>
+    <Section class="Pedidos" id="pedidos">
+        <h2>Pedidos en lista</h2>
+        <table id="pedidos_table">
+            <tr>
+                <th>Fecha</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Telefono</th>
+                <th>Sabor</th>
+                <th>Topings</th>
+            </tr>
+            <tr>
+                <th>Enero 12 22</th>
+                <th>Luis</th>
+                <th>Peralta</th>
+                <th>7771238392</th>
+                <th>Choclolate</th>
+                <th>Heppy birthday</th>
+            </tr>
+            <tr>
+                <th>Enero 13 22</th>
+                <th>Luisa</th>
+                <th>Herrera</th>
+                <th>111283939</th>
+                <th>Cafe</th>
+                <th>Red Velvet</th>
+            </tr>
+            <tr>
+                <th>Enero 16 22</th>
+                <th>Emmanuel</th>
+                <th>Arias</th>
+                <th>8882348392</th>
+                <th>Tres leches</th>
+                <th>Caricatura</th>
+            </tr>
+        </table>
+    </Section>
+<hr>
+    <section class="location">
+        <div id="serach">
+            <p>Contactanos!</p>
+            <p>Estamos disponibles de 8 a 8 pm los 365 días del año</p>
+            <p><b>04370 Ciudad de México, CDMX</b></p>
+        </div>
+        <div id="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.664485552617!2d-99.14831088549818!3d19.34036004863627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffd52d8fb63f%3A0x89431b646387c482!2sAtl%C3%A1ntida%2C%2004370%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1646372666258!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+</body>
+</html>
